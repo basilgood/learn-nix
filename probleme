@@ -1,0 +1,22 @@
+1. o functie care primeste o lista de numere si returneaza o noua lista cu aceleasi numere, dar inmultite cu 10
+1 2 3 -> 10 20 30
+2. o functie care primeste o lista de numere si returneaza doar numerele pare
+1 2 3 -> 2
+3. o functie care primeste o lista de numere si returneaza suma lor
+1 2 3 -> 6
+4. o functie care primeste o lista de stringuri si returneaza o noua lista cu valori boolean, unde fiecare item este `true` daca stringul respectiv are numar par de litere si `false` daca nu
+salut ma numesc george -> false true true true
+5. o functie care primeste o lista de stringuri si returneaza un string format prin concatenarea string-urilor si cu semnul exclamarii la sfarsit
+salut ma numesc george -> "salut ma numesc george!"
+6. o functie care primeste un set de fructe si cantitatea disponibila si returneaza un set cu denumirile fructelor grupate dupa in doua grupe "pare" si "impare", in functie de cantitatea disponibila
+{
+  mere = 2;
+  pere = 3;
+  micsunele = 5;
+  struguri = 100;
+}
+->
+{ 
+  pare = [mere struguri];
+  impare = [pere micsunele];
+}
